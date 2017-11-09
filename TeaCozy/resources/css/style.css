@@ -1,0 +1,157 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  margin: 0px;
+  border: 0;
+}
+
+header {
+  display: flex;
+  position: fixed;
+  align-items: center;
+  width: 100%;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  z-index: 20;
+  background-color: black;
+  margin-top: 0px;
+}
+
+.logo {
+  flex-grow: 1;
+  padding-left: 10px;
+  display: flex;
+}
+
+.logo img {
+  height: 50px;
+}
+
+nav span {
+  display: inline-block;
+  text-decoration: underline;
+  padding: 10px;
+}
+
+nav {
+  padding-right: 5px;
+}
+
+.content {
+  margin: 0px auto;
+  z-index: 5;
+  position: relative;
+  top: 70px;
+  justify-content: center;
+  align-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.background {
+  height: 700px;
+  flex-basis: : 1200px;
+  display: flex;
+  align-items: center;
+  background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg');
+}
+
+.mission {
+  text-align: center;
+  background-color: black;
+  width: 1200px;
+}
+
+.teamonth {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-basis: 1400px;
+}
+
+.monthheader {
+  flex-basis: 1000px;
+  text-align: center;
+}
+
+.tea img {
+  height: 200px;
+  width: 300px;
+  margin-bottom: 10px;
+}
+
+.tea {
+  text-align: center;
+}
+
+.allteas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: space-between;
+  flex-basis: 1000px;
+}
+
+.locationsandcontact {
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 1200px;
+  height: 700px;
+}
+
+.alllocations {
+  display: flex;
+  flex-basis: 1200px;
+  height: 500px;
+  background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg');
+}
+
+.contact {
+  display: flex;
+  flex-basis: 1200px;
+  flex-direction: column;
+  height: 200px;
+  text-align: center;
+}
+
+.contact div{
+  flex-basis: 1200px;
+  height: 33%
+}
+
+.locations {
+  display: flex;
+  flex-basis: 980px;
+  height: 300px;
+  margin: auto auto;
+}
+
+.location {
+  flex-basis: 300px;
+  height: 300px;
+  background-color: black;
+  text-align: center;
+  margin: 0px 20px;
+  opacity: 1;
+}
+
+#locationtitle {
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  margin-top: 55px;
+}
+
+.copyright {
+  width: 100%;
+  text-align: left:
+}
+
+.copyright h5 {
+  margin-left: 20px;
+}
